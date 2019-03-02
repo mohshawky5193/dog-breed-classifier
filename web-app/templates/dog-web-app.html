@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Dog Classifier</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <nav class="nav-site">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </nav>
+        <h1>Dog Breed Classifier</h1>
+        <p> Upload an Image and the result will be one of three things</p>
+        <ol>
+            <li>If  Human Face is detected it will tell you the most resembling dog breed to that human face</li>
+            <li>If It is Dog then it will tell you the dog breed</li>
+            <li>If neither It will tell you to upload another Image</li>
+        </ol>
+        <div class="container">
+            <form method="POST"  enctype="multipart/form-data">
+                <input type="file" class="inputFile" name="file" id="fileId" accept="image/*">
+                <div class ="upload-button">
+                    <label id="labelId" for="file" >Choose a file</label>
+                    <img src="upload-white.png"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
