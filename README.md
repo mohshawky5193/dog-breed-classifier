@@ -43,6 +43,8 @@ _if no path specified the output image name will be `output.jpg`_
 ![Dog Image Example](examples/dog_out.jpg)
 > * If the image file contains neither human face nor a dog then print output message indicating so
 
+# Web App
+There is also a web application deployed on [Heroku](https://dog-breed-classifier-udacity.herokuapp.com/) you can also try it and have fun :smile:
 
 
 
