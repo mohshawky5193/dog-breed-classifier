@@ -1,0 +1,13 @@
+cmake == 3.13.0
+face-recognition==1.2.3
+face-recognition-models==0.3.0
+Flask==1.0.2
+Jinja2==2.10
+numpy==1.16.2
+numpydoc==0.8.0
+Pillow==5.4.1
+https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
+gunicorn == 19.9.0
+torchvision==0.2.2
+opencv-python-headless==4.0.0.21
+
