@@ -9,5 +9,5 @@ Pillow==8.2.0
 https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
 gunicorn == 19.9.0
 torchvision==0.2.2
-opencv-python-headless==4.0.0.21
+opencv-python-headless==4.2.0.32
 
