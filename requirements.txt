@@ -43,7 +43,7 @@ mkl-fft==1.0.10
 mkl-random==1.0.2
 nbconvert==5.3.1
 nbformat==4.4.0
-notebook==6.1.5
+notebook==6.4.10
 numpy==1.15.4
 numpydoc==0.8.0
 olefile==0.46
